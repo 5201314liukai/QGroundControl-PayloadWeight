@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=鹰航源
+GenericName=Ground Control Station
+Comment=UAS ground control station
+Icon=org.mavlink.qgroundcontrol
+Exec=QGroundControl
+Terminal=false
+Categories=Utility;
+

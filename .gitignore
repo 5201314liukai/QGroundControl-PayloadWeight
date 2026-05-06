@@ -1,0 +1,55 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# Release outputs
+release_outputs/
+
+# Android outputs
+*.apk
+*.aab
+
+# Windows outputs
+*.exe
+*.msi
+*.zip
+*.7z
+
+# Linux packages
+*.tar.gz
+*.AppImage
+
+# Android signing keys - DO NOT UPLOAD
+android_release_keys/
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# Qt / Android generated
+.android/
+.gradle/
+local.properties
+android-build/
+ANDROID_PACKAGE_SOURCE_DIR/
+
+# Node/npm generated
+node_modules/
+
+# IDE/cache
+.vscode/
+.idea/
+*.user
+*.autosave
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and checksum files
+*.log
+*.sha256
+*.sha256.txt
